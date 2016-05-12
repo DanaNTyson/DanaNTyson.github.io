@@ -26,6 +26,11 @@ li a {
 	font-family: 'Lora', serif;
 }
 
+footer {
+	margin-top: 10px;
+	font-size: 12px;
+}
+
 a.button {
 	-webkit-border-radius: 2;
 	-moz-border-radius: 2;
@@ -130,6 +135,7 @@ a:hover + div.caption {
 	width: 1000px;
 	margin: 0 auto;
 	padding: 50px;
+	margin-top: 20px;
 	text-align: center;
 	color: #53435b;
 	background-color: transparent;
@@ -198,8 +204,45 @@ a:hover + div.caption {
 		margin: 0 auto;
 	}
 
+	iframe {
+		width: 250px;
+	}
+
 	.description p {
 		font-size: 17px;
+	}
+
+	.container {
+		width: 320px;
+		padding: 0px
+	}
+
+	.wrapper {
+		margin-top: 18px;
+		padding-left: 0px; 
+		width: 300px;
+		font-size: 13px;
+	}
+
+	.section {
+		padding: 10px 5px;
+		margin-top: 5px;
+	}
+
+	.img {
+		width: 250px;
+	}
+
+	div.caption {
+		display: block;
+		height: 125px;
+		width: 250px;
+		font-size: 10px;
+	}
+
+	.pquote {
+		width: 150px;
+		font-size: 20px;
 	}
 
 	#start {
@@ -211,4 +254,30 @@ a:hover + div.caption {
 	#start h1 {
 		font-size: 25px;
 	}
+
+	#header-sroll {
+		max-width: 290px;
+	}
+
+	#header-sroll h1 {
+		font-size: 18px;
+		margin: 5px;
+	}
+
+	#header-sroll h3 {
+		font-size: 15px;
+		line-height: 20px;
+		margin: 5px;
+	}
+
+	#header-sroll.small h1 {
+		height: 20px;
+		font-size: 12px;
+	}
+
+	#header-sroll.small h3 {
+		height: 20px;
+		font-size: 10px;
+	}
+
 }
